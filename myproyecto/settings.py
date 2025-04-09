@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'myproyecto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'webhookuse',
+        'NAME': 'webhook',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': '140823schmesom1917',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
