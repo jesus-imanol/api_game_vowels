@@ -4,7 +4,7 @@ from .models import Animal, Level, UserProgress, CustomAnimalImage
 class AnimalSerializer(serializers.ModelSerializer):
     class Meta:
         model = Animal
-        fields = ['name', 'starting_vowel', 'image']  # Excluye 'id'
+        fields = ['id','name', 'starting_vowel', 'image']  
 
 class LevelSerializer(serializers.ModelSerializer):
     # Usamos PrimaryKeyRelatedField para POST (IDs) y AnimalSerializer para GET (detalles)
